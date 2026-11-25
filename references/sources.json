@@ -1,0 +1,14 @@
+[
+  {
+    "original_filename": "TZ_system_recognition_completed.docx",
+    "filename_in_archive": "original_TZ.docx",
+    "sha256": "9452c7f53c5fc364170a3d1336bea529698c5ac18301f90c57665a13f44b27af",
+    "modified": false
+  },
+  {
+    "original_filename": "Группа_1_применение_модели.zip",
+    "filename_in_archive": "original_training_example.zip",
+    "sha256": "687cde0532bf8ef1f021f48b80b20bfc6732b83d87ee05a7b7dbd86a71f536e0",
+    "modified": false
+  }
+]
