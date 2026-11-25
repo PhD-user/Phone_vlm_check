@@ -1,0 +1,5 @@
+path,label,device_id,session_id,group_id,phone_model,source,split,sha256,dhash
+data/raw/android/example_001.jpg,android,android_device_001,session_001,,Samsung Galaxy S22,own_photo,,,
+data/raw/android/example_002.jpg,android,android_device_001,session_001,,Samsung Galaxy S22,own_photo,,,
+data/raw/iphone/example_003.jpg,iphone,iphone_device_001,session_002,,iPhone 13,own_photo,,,
+data/raw/iphone/example_004.jpg,iphone,iphone_device_002,session_003,,iPhone 14,own_photo,,,
