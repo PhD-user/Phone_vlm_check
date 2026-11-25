@@ -1,0 +1,93 @@
+{
+  "dataset": "temporary synthetic drawings; not smartphone photos",
+  "phone_quality_measured": false,
+  "checks": [
+    {
+      "command": [
+        "index"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.163
+    },
+    {
+      "command": [
+        "audit"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.198
+    },
+    {
+      "command": [
+        "split"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.656
+    },
+    {
+      "command": [
+        "extract",
+        "--device",
+        "cpu"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 4.987
+    },
+    {
+      "command": [
+        "train"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.943
+    },
+    {
+      "command": [
+        "evaluate"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.769
+    },
+    {
+      "command": [
+        "predict",
+        "data/raw/android/android_0.png"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 3.149
+    },
+    {
+      "command": [
+        "batch",
+        "inputs"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 3.254
+    },
+    {
+      "command": [
+        "benchmark",
+        "--device",
+        "cpu"
+      ],
+      "passed": true,
+      "returncode": 0,
+      "seconds": 3.936
+    },
+    {
+      "command": [
+        "train"
+      ],
+      "passed": true,
+      "returncode": 2,
+      "seconds": 0.928
+    }
+  ],
+  "all_passed": true
+}

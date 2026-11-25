@@ -1,0 +1,17 @@
+test_conflicting_duplicate_labels_rejected (test_core.DatasetTests.test_conflicting_duplicate_labels_rejected) ... ok
+test_grouped_split_is_reproducible (test_core.DatasetTests.test_grouped_split_is_reproducible) ... ok
+test_missing_group_ids_and_path_escape_rejected (test_core.DatasetTests.test_missing_group_ids_and_path_escape_rejected) ... ok
+test_transitive_groups_and_cross_split_leak (test_core.DatasetTests.test_transitive_groups_and_cross_split_leak) ... ok
+test_exif_orientation (test_core.ImageTests.test_exif_orientation) ... ok
+test_invalid_files (test_core.ImageTests.test_invalid_files) ... ok
+test_letterbox_keeps_object_proportions (test_core.ImageTests.test_letterbox_keeps_object_proportions) ... ok
+test_portrait_and_source_preservation (test_core.ImageTests.test_portrait_and_source_preservation) ... ok
+test_softmax_is_stable_for_large_logits (test_core.MetricTests.test_softmax_is_stable_for_large_logits) ... ok
+test_warnings_do_not_hide_classification_errors (test_core.MetricTests.test_warnings_do_not_hide_classification_errors) ... ok
+test_cli_reports_missing_training_artifact (test_workflow.WorkflowTests.test_cli_reports_missing_training_artifact) ... ok
+test_real_backbone_pipeline_offline (test_workflow.WorkflowTests.test_real_backbone_pipeline_offline) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 6.662s
+
+OK
