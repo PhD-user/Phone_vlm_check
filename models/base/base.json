@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "model": "MobileCLIP2-S0",
+  "architecture": "fastvit_mci0",
+  "embedding_dim": 512,
+  "image_size": 256,
+  "source_repo": "timm/MobileCLIP2-S0-OpenCLIP",
+  "source_revision": "095906d28bf54d7584dc411e8ffe448f34289e05",
+  "source_sha256": "ab91a1a0c4330d6b1913e24d5035dfdea15423316aaec649610c6b1c6ddd0e95",
+  "visual_sha256": "60ee8db3a7003df88e2cb09a5190c52cd2e8edfc80fc7205298fa3099bab3c77",
+  "created_at": "2026-11-24T18:16:41+00:00",
+  "license": "apple-amlr; research and academic use only",
+  "modification": "Only visual.trunk retained; text tower removed; tensor names stripped of visual.trunk prefix.",
+  "environment": {
+    "code_version": "0.1.0",
+    "packages": {
+      "torch": "2.8.0+cpu",
+      "torchvision": "0.23.0+cpu",
+      "timm": "1.0.20",
+      "safetensors": "0.6.2",
+      "numpy": "2.2.6",
+      "Pillow": "12.0.0",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.16.3",
+      "psutil": "7.1.2"
+    }
+  }
+}

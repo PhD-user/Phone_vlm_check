@@ -1,0 +1,4 @@
+Apple Machine Learning Research Model is licensed under the Apple Machine Learning Research Model License Agreement.
+Source model: apple/MobileCLIP2-S0. Canonical conversion: timm/MobileCLIP2-S0-OpenCLIP.
+Modification: retained only visual.trunk, removed its prefix. No phone-task fine-tuning.
+Research and academic use only. See APPLE_MODEL_LICENSE.txt.
