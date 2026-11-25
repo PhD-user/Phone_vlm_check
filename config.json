@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "base_dir": "models/base",
+  "manifest": "data/splits.csv",
+  "features": "artifacts/features.npz",
+  "device": "auto",
+  "batch_size": 16,
+  "cpu_threads": 4,
+  "seed": 42,
+  "image_policy": {
+    "allowed_formats": ["JPEG", "PNG"],
+    "min_short_side": 480,
+    "min_long_side": 640,
+    "max_side": 6000,
+    "max_file_mb": 50
+  },
+  "preprocess": {
+    "size": 256,
+    "resize": "letterbox",
+    "interpolation": "bilinear",
+    "fill": [0, 0, 0],
+    "mean": [0.0, 0.0, 0.0],
+    "std": [1.0, 1.0, 1.0],
+    "exif_transpose": true
+  },
+  "training": {
+    "C_grid": [0.01, 0.1, 1.0, 10.0, 100.0],
+    "max_iter": 3000,
+    "confidence_threshold": 0.6
+  }
+}
